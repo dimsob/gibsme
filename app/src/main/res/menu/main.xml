@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/plus"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_content_add_circle_outline"
+        android:title="Добавить заказ"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_search"
+        android:title="Поиск"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/filter"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_content_sort"
+        android:title="Фильтр"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/messages"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Сообщения" />
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Новости" />
+        <item
+            android:id="@+id/my_placed_orders"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Мои размещенные заказы" />
+        <item
+            android:id="@+id/my_done_orders"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Выполненные заказы" />
+        <item
+            android:id="@+id/favorites"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Избранное" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/prefs"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Настройки" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Выход" />
+    </group>
+
+    <!--  <item android:title="Communicate">
+          <menu>
+              <item
+                  android:id="@+id/nav_share"
+                  android:icon="@drawable/ic_menu_share"
+                  android:title="Share" />
+              <item
+                  android:id="@+id/nav_send"
+                  android:icon="@drawable/ic_menu_send"
+                  android:title="Send" />
+          </menu>
+      </item>-->
+
+</menu>
